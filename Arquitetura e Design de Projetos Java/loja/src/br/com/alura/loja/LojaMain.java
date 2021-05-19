@@ -2,8 +2,6 @@ package br.com.alura.loja;
 
 import br.com.alura.loja.imposto.CalculadoraDeImpostos;
 import br.com.alura.loja.imposto.ICMS;
-import br.com.alura.loja.imposto.ISS;
-import br.com.alura.loja.imposto.TipoImposto;
 import br.com.alura.loja.orcamento.Orcamento;
 
 import java.math.BigDecimal;
