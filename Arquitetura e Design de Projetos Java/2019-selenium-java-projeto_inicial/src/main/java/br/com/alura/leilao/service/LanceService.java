@@ -1,8 +1,5 @@
 package br.com.alura.leilao.service;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
-
 import br.com.alura.leilao.dto.NovoLanceDto;
 import br.com.alura.leilao.model.Lance;
 import br.com.alura.leilao.model.Leilao;
@@ -10,6 +7,8 @@ import br.com.alura.leilao.model.Usuario;
 import br.com.alura.leilao.repositories.LanceRepository;
 import br.com.alura.leilao.repositories.LeilaoRepository;
 import br.com.alura.leilao.repositories.UsuarioRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 @Service
 public class LanceService {

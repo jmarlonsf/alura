@@ -1,12 +1,11 @@
 package br.com.alura.leilao.security;
 
+import br.com.alura.leilao.model.Usuario;
+import br.com.alura.leilao.repositories.UsuarioRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
-
-import br.com.alura.leilao.model.Usuario;
-import br.com.alura.leilao.repositories.UsuarioRepository;
 
 public class UserDetailsServiceImpl implements UserDetailsService {
 

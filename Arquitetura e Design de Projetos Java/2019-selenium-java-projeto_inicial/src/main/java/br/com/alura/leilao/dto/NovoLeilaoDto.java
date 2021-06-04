@@ -1,16 +1,11 @@
 package br.com.alura.leilao.dto;
 
+import br.com.alura.leilao.model.Leilao;
+
+import javax.validation.constraints.*;
 import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
-
-import javax.validation.constraints.DecimalMin;
-import javax.validation.constraints.NotBlank;
-import javax.validation.constraints.NotNull;
-import javax.validation.constraints.Pattern;
-import javax.validation.constraints.Size;
-
-import br.com.alura.leilao.model.Leilao;
 
 public class NovoLeilaoDto {
 

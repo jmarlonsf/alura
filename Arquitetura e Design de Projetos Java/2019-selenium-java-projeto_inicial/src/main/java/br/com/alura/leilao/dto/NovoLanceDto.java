@@ -1,13 +1,12 @@
 package br.com.alura.leilao.dto;
 
-import java.math.BigDecimal;
-import java.time.LocalDate;
+import br.com.alura.leilao.model.Lance;
+import br.com.alura.leilao.model.Usuario;
 
 import javax.validation.constraints.DecimalMin;
 import javax.validation.constraints.NotNull;
-
-import br.com.alura.leilao.model.Lance;
-import br.com.alura.leilao.model.Usuario;
+import java.math.BigDecimal;
+import java.time.LocalDate;
 
 public class NovoLanceDto {
 

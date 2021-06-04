@@ -1,13 +1,12 @@
 package br.com.alura.leilao.security;
 
-import java.util.Arrays;
-import java.util.Collection;
-
+import br.com.alura.leilao.model.Usuario;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
-import br.com.alura.leilao.model.Usuario;
+import java.util.Arrays;
+import java.util.Collection;
 
 public class LeilaoUserDetails implements UserDetails {
 
