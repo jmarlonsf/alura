@@ -23,8 +23,5 @@ public class LancesPage {
 		return browser.getPageSource().contains("Dados do Leilão");
 	}
 
-	public void fechar() {
-		this.browser.quit();
-	}
 
 }

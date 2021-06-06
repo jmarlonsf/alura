@@ -12,10 +12,6 @@ public class CadastroLeilaoPage extends PageObject {
         super(browser);
     }
 
-    public void fechar() {
-        this.browser.quit();
-    }
-
     public LeiloesPage cadastrarLeilao(String nome, String valorInical, String dataAbertura) {
         this.browser.findElement(By.id("nome")).sendKeys(nome);
         this.browser.findElement(By.id("valorInicial")).sendKeys(valorInical);

@@ -13,11 +13,6 @@ public class LeiloesPage extends PageObject {
        super(browser);
     }
 
-    public void fechar() {
-        this.browser.quit();
-    }
-
-
     public CadastroLeilaoPage carregaFormulario() {
         this.browser.navigate().to(URL_CADASTRO_LEILAO);
         return new CadastroLeilaoPage(browser);
