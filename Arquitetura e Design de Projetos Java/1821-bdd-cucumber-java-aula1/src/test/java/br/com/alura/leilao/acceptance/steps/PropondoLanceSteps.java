@@ -36,14 +36,20 @@ public class PropondoLanceSteps {
     }
 
 
-    @Dado("varios lances validos")
-    public void varios_lances_validos() {
-        Usuario usuario1 = new Usuario("fulano");
-        lance10 = new Lance(usuario1, BigDecimal.TEN);
-        Usuario usuario2 = new Usuario("Beltrano");
-        lance15 = new Lance(usuario2, new BigDecimal("15.0"));
-        leilao = new Leilao("Tablet XPTO");
+//    @Dado("varios lances validos")
+//    public void varios_lances_validos() {
+//        Usuario usuario1 = new Usuario("fulano");
+//        lance10 = new Lance(usuario1, BigDecimal.TEN);
+//        Usuario usuario2 = new Usuario("Beltrano");
+//        lance15 = new Lance(usuario2, new BigDecimal("15.0"));
+//        leilao = new Leilao("Tablet XPTO");
+//
+//    }
 
+    @Dado("um lance de {double} reais do usuario {string}")
+    public void um_lance_de_reais_do(Double valor, String nome) {
+        System.out.println(valor);
+        System.out.println(nome);
     }
 
     @Quando("propoe varios lances ao leilao")
